@@ -1,0 +1,26 @@
+{
+  "name": "dev-test",
+  "version": "1.0.0",
+  "description": "test development",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "node buildScripts/startMessage.js",
+    "start": "node buildScripts/srcServer.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaspreet36/dev-test.git"
+  },
+  "author": "Jaspreet Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaspreet36/dev-test/issues"
+  },
+  "homepage": "https://github.com/jaspreet36/dev-test#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "express": "^4.16.2",
+    "open": "0.0.5"
+  }
+}
